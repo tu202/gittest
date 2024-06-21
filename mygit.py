@@ -7,8 +7,6 @@ repo = Repo.init('.')  #初始化
 status = repo.git.status()
 print(status)
 
-
-
 #下載專案檔案到指定路徑
 #Repo.clone_from('https://github.com/tu202/mypython20240620.git', './download')
 
